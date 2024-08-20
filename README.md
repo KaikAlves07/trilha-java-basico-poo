@@ -7,4 +7,12 @@ classDiagram
 Iphone --|> ReprodutorMusical
 ReprodutorMusical : +tocar() \n +pausar() \n +selecionarMusica(String musica)
 ReprodutorMusical : +String musica
+
+Iphone --|> AparelhoTelefonico
+AparelhoTelefonico : +ligar(String numero) \n +atender() \n +iniciarCorreioVoz()
+AparelhoTelefonico : +int numero 
+
+Iphone --|> NavegadorInternet
+NavegadorInternet : +exibirPagina(String url) \n +adicionarNovaAba() \n +atualizarPagina()
+NavegadorInternet : +String url
 ```
